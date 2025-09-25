@@ -12,7 +12,7 @@ pipeline {
     stage('build'){
         steps{
             mvn clean install
-        }
+            }
         }
          stage('Test') {
                     steps {
